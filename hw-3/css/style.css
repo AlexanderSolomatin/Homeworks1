@@ -1,0 +1,92 @@
+header {
+    background-color: lightblue;
+    height: 90px;
+    width: 100%;
+    padding: 25px;
+}
+
+img {
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    font-style: initial;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.task2 {
+    width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px;    
+    margin: 0 0 30px 0;
+    border: dashed 2px red;
+    background-color: green;
+}
+
+.task3 {
+    width:60%;
+    text-align: justify;
+}
+.task3 #img_html {
+    float: left;
+    margin: 0px 20px 0  0;
+}
+.task3 #img53 {
+    float: right;
+    width: 160px;
+    height: 110px;
+    margin: 20px 0 0 20px;
+}
+
+.task4 li {
+    border: solid 2px blue;
+    margin: 5px 5px;
+    height: 40px;    
+    width: 15%;
+    padding: 10px 10px;
+}
+
+.task4 li a {
+   text-decoration: none;  
+}
+
+.bold_text li:first-child{
+    font-weight: bold;
+}
+
+.b_box,
+.b_box1,
+.b_box2 {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border: solid 2px red;
+ }
+
+ .b_box{     
+    background: linear-gradient(to bottom, rgb(25, 238, 25) 50%, rgb(0, 25, 252) 50%);
+ }
+
+ .b_box1{
+    background: repeating-linear-gradient(to right, blue 0, blue 20px, rgb(0, 248, 0) 20px, rgb(0, 248, 0) 40px);    
+ }
+
+ .b_box2{    
+   align-items: center;
+   justify-content: center;  
+   display: flex;
+   flex-direction: row;
+ }
+
+ .b_box2_2{
+    background: repeating-linear-gradient(to right, blue 0, blue 20px, rgb(0, 248, 0) 20px, rgb(0, 248, 0) 40px);  
+    width: 100%;
+    height: 30px;
+ } 

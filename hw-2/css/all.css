@@ -1,0 +1,53 @@
+blockquote p:before{
+    content: '"';
+}
+
+blockquote p:after{
+    content: '"';
+}
+
+.numTask {
+    margin:10px 0 10px 0;
+    font-size: 32px;
+    font-style: italic;
+}
+
+.quote {
+    color: green;   
+}
+
+a[href^=https] {
+    color: red;
+}
+
+#blueBG {
+    background-color: blue;
+    color: white;
+}
+
+ul + p {
+    font-size: 26px;
+}
+
+.text-box :first-child {
+    color: pink;
+}
+
+.text-box > div :only-child{
+    color: red;
+}
+
+#greycol {
+    color: gray;
+}
+
+.text-box :nth-child(7) {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}   
+
+
+
